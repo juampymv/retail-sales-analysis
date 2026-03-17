@@ -120,7 +120,7 @@ sql/superstore_analysis.sql
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/juampymv/retail-sales-analysis
+git clone https://github.com/juampymv/retail-sales-analysis.git
 cd retail-sales-analysis
 ```
 
