@@ -78,7 +78,7 @@ retail-sales-analysis/
 
 ## Key Insights
 
-- Some high-revenue categories generate low or negative profit
+- Some high-sales categories generate low or negative profit
 - A small subset of customers drives a large portion of revenue
 - Discounts have a strong impact on profitability
 - Not all top-selling products are profitable
