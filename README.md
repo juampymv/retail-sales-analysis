@@ -89,7 +89,7 @@ retail-sales-analysis/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/retail-sales-analysis.git
+git clone https://github.com/juampymv/retail-sales-analysis
 cd retail-sales-analysis
 ```
 
