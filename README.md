@@ -76,6 +76,37 @@ retail-sales-analysis/
 
 ---
 
+## SQL Analysis
+
+In addition to Python-based analysis, key business questions were explored using SQL.
+
+The SQL workflow includes:
+
+- Loading the dataset into a SQLite database
+- Writing analytical queries to answer business questions
+- Translating Python-based insights into SQL logic
+
+Example queries include:
+
+- Top categories by revenue and profit
+- Most profitable customers
+- Sales and profit by region
+- Impact of discounts on profitability
+
+To run the SQL analysis:
+
+```bash
+python sql/load_to_sqlite.py
+python sql/run_sql.py
+```
+
+All queries are available in:
+```
+sql/superstore_analysis.sql
+```
+
+---
+
 ## Key Insights
 
 - Some high-sales categories generate low or negative profit
