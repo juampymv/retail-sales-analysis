@@ -1,6 +1,6 @@
 # Retail Sales Analysis
 
-End-to-end data analysis project using Python and SQL on a retail dataset, focused on extracting business insights and building a strong foundation for data-driven decision making.
+End-to-end data analysis project using Python, SQL, and Power BI, covering data exploration, business analysis, and interactive dashboarding.
 
 ---
 
@@ -21,8 +21,9 @@ The goal is to demonstrate:
 
 - Python: pandas, matplotlib, seaborn  
 - SQL: SQLite  
+- Power BI (dashboard and data visualization)  
 - Jupyter Notebooks  
-- Git & GitHub  
+- Git & GitHub
 
 ---
 
@@ -34,6 +35,9 @@ retail-sales-analysis/
 ├── data/
 │   └── superstore.csv
 │
+├── images/
+│   └── powerbi_dashboard.png
+│
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_business_analysis.ipynb
@@ -41,12 +45,17 @@ retail-sales-analysis/
 │   ├── 04_product_analysis.ipynb
 │   └── 05_final_insights.ipynb
 │
+├── powerbi/
+│   └── retail_sales_dashboard.pbix
+│
 ├── sql/
 │   ├── load_to_sqlite.py
 │   ├── run_sql.py
 │   └── superstore_analysis.sql
 │
-└── README.md
+├── .gitignore
+├── README.md
+└── requirements.txt
 ```
 
 ---
@@ -107,6 +116,23 @@ sql/superstore_analysis.sql
 
 ---
 
+## 📊 Power BI Dashboard
+
+To complement the Python and SQL analysis, an interactive Power BI dashboard was built to visualize key business metrics and insights.
+
+### Features:
+- KPIs: Total Sales, Total Profit, Profit Margin
+- Sales over time (trend analysis)
+- Sales by category and region
+- Profitability by sub-category
+- Interactive filters (Category, Region, Order Date)
+
+### Dashboard Preview
+
+![Dashboard](images/powerbi_dashboard.png)
+
+---
+
 ## Key Insights
 
 - Some high-sales categories generate low or negative profit
@@ -126,7 +152,7 @@ cd retail-sales-analysis
 
 ### 2. Install dependencies
 ```bash
-pip install pandas matplotlib seaborn
+pip install -r requirements.txt
 ```
 
 ### 3. Create the database
@@ -157,9 +183,9 @@ jupyter notebook
 
 ## Next Steps
 
-- Add interactive dashboards (Power BI)
+- Deploy the dashboard using Power BI Service
+- Build a data application (e.g., Streamlit)
 - Apply machine learning models
-- Deploy as a data application
 
 ---
 
